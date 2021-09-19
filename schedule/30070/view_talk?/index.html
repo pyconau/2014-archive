@@ -52,7 +52,7 @@
         <header>
             <div class="nav-bg"></div>
             <div class="container">
-                <a href="/">
+                <a href="http://2014.pycon-au.org">
                     <!-- PictureFill Responsive Logo -->
                     <span data-picture data-alt="PyCon AU 2014 Logo">
                         <span data-src="/img/mobile-logo.png" class="mobile-logo"></span>
@@ -72,6 +72,7 @@
           <li class=""><a href="/sponsors/sponsors">Sponsors</a></li>
           <li class="active"><a href="/programme/about">Programme</a></li>
           <li class=""><a href="/register/prices">Register</a></li>
+          <li class=""><a href="/grants">Grants</a></li>
           <li class=""><a href="/media/news">Media</a></li>
           <li class=""><a href="/contact">Contact</a></li>
       </ul>
@@ -103,6 +104,7 @@
           <li class=""><a href="/sponsors/sponsors">Sponsors</a></li>
           <li class="active"><a href="/programme/about">Programme</a></li>
           <li class=""><a href="/register/prices">Register</a></li>
+          <li class=""><a href="/grants">Grants</a></li>
           <li class=""><a href="/media/news">Media</a></li>
           <li class=""><a href="/contact">Contact</a></li>
       </ul>
@@ -138,11 +140,11 @@
 
                         <a href="/programme/miniconfs" >Miniconfs <i class="fa fa-chevron-right pull-right"></i></a>
 
-                        <a href="/programme/schedule/friday" >Friday Schedule <i class="fa fa-chevron-right pull-right"></i></a>
+                        <a href="/programme/friday_schedule" >Friday Schedule <i class="fa fa-chevron-right pull-right"></i></a>
 
-                        <a href="/programme/schedule/saturday" >Saturday Schedule <i class="fa fa-chevron-right pull-right"></i></a>
+                        <a href="/programme/saturday_schedule" >Saturday Schedule <i class="fa fa-chevron-right pull-right"></i></a>
 
-                        <a href="/programme/schedule/sunday" >Sunday Schedule <i class="fa fa-chevron-right pull-right"></i></a>
+                        <a href="/programme/sunday_schedule" >Sunday Schedule <i class="fa fa-chevron-right pull-right"></i></a>
 
                         <a href="/programme/social_events" >Social Events <i class="fa fa-chevron-right pull-right"></i></a>
                     </nav>
@@ -166,10 +168,10 @@
                     <h3 class="sidebar-title">Latest News</h3>
                     <div class="news-titles">
                         <ul>
-                            <li><a href="/media/news/49">Keynote: Dr James R. Curran</a><br />09 July 2014</li>
-                            <li><a href="/media/news/47">Call for Volunteers</a><br />08 July 2014</li>
-                            <li><a href="/media/news/46">Keynote:  Katie Cunningham</a><br />02 July 2014</li>
                             <li><a href="/media/news/40">PyCon Australia 2014 has revealed its programme! </a><br />25 June 2014</li>
+                            <li><a href="/media/news/39">Early Birds almost sold out!</a><br />10 June 2014</li>
+                            <li><a href="/media/news/38">Financial Aid applications now open</a><br />02 June 2014</li>
+                            <li><a href="/media/news/37">Early Bird Registrations Now Open!</a><br />02 June 2014</li>
                         </ul>
                         <a href="/media/news">More News...</a>
                     </div>
@@ -188,13 +190,19 @@
 
 
 
-<p><a href="/programme/schedule/sunday">&lt;-- Back to schedule</a></p>
+<p><a href="/programme/schedule/all">&lt;-- Back to schedule</a></p>
 
-<h2>Small Data: Databases in the real world</h2>
+<h2>The Curse of the Django Podcast</h2>
 	
 
 <table>
 
+  <tr class="even">
+    <td><strong>Project:</td>
+    <td colspan="5">
+      <a href="https://github.com/elena/django-news-podcast">
+Django News Podcast
+</a>
 </td>
 
 
@@ -204,16 +212,16 @@
 <div id="proposal">
 <div class="abstract">
 <blockquote>
-<p>We hear a lot about how various different databases and storage methods work at massive scale, but that always comes at a massive engineering and ops cost - and for most companies, that's not what they need anyway.<br /><br />We'll take a look at databases with the perspective of a smaller engineering team - from 1 to 100 people - and see how databases not only perform at scale, but also how they perform with rapid development, continuous deployment & smaller hardware requirements, and take a look at what Big Data really means anyway.</p>
+<p>The Django community is full of amazing, enthusiastic and multi-talented individuals who love to take on exciting new extra-curricular projects in their massive amounts of spare time. <br /><br />A Django podcast is an excellent example of this kind of project and it is one that has been taken up no less than 5 times so far.<br /><br />I am the latest to take up this torch.<br /><br />This has so far been an amazing, educational, exhilarating experience: I have had the honour of gathering the thoughts of some of the best, brightest and most prolific in our community. It's been a load of work but also a load of fun.<br /><br />Come hear the story of how this has happened, and come to learn how you can be part of the greater Django information and communication machinery.</p>
 </blockquote>
 </div>
 
-<h2>Andrew Godwin</h2>
+<h2>Elena Williams</h2>
 <div class="bio">
 <blockquote>
-<div style="float: right; padding-left: 5px; padding-bottom: 5px; "><img src="https://seccdn.libravatar.org/avatar/077e9a0cb34fa3eba2699240c9509717?d=mm" alt=""></div>
+<div style="float: right; padding-left: 5px; padding-bottom: 5px; "><img src="https://seccdn.libravatar.org/avatar/92d7e8f776cf1124e5298a7847de00eb?d=mm" alt=""></div>
 <p>
-Andrew is a Django core developer and the primary author of both South and the new Django migrations framework. He's employed as a Senior Software Engineer on Eventbrite's Architecture team, and has spent much of the past decade making databases do things they were never designed for. In his spare time, he also enjoys archery and flies private planes.
+Elena is a web developer. She prefers working with Django doing both back- and front-end development and has worked on projects in a variety of industries. She is enthusiastic about Django, Python, getting people to be involved with Free Software, hacking/making, kitesurfing and endurance navigation sports.
 </p></blockquote>
 </div>
 
@@ -237,18 +245,9 @@ Andrew is a Django core developer and the primary author of both South and the n
 </div>
 
                 <div class="sidebar-logos">
-                    <a href="http:/?au.redhat.com">
-                        <img src="/img/logos/red_hat.png" alt="Red Hat" class="scale-with-grid" />
-                    </a>
-                    <a href="https://www.eventbrite.com/">
-                        <img src="/img/logos/eventbrite.png" alt="Eventbrite" class="scale-with-grid" />
-                    </a>
-                    <a href="http://netboxblue.com">
-                        <img src="/img/logos/netbox_blue.png" alt="Netbox Blue" class="scale-with-grid" />
-                    </a>
-                    <a href="http://google.com.au">
-                        <img src="/img/logos/google.png" alt="Google Australia" class="scale-with-grid" />
-                    </a>
+                    <a href="http://au.redhat.com"><img src="/img/logos/red_hat.png" alt="Red Hat" class="scale-with-grid" /></a>
+                    <a href="http://netboxblue.com"><img src="/img/logos/netbox_blue.png" alt="Netbox Blue" class="scale-with-grid" /></a>
+                    <a href="http://google.com.au"><img src="/img/logos/google.png" alt="Google Australia" class="scale-with-grid" /></a>
                 </div>
           </div>
             <div class="clearfix"></div>
@@ -270,7 +269,7 @@ Andrew is a Django core developer and the primary author of both South and the n
                     <li><a href="/programme/about">About the Programme</a></li>
                     <li><a href="/programme/keynotes">Keynotes</a></li>
                     <li><a href="/programme/miniconfs">MiniConfs</a></li>
-                    <li><a href="/programme/schedule/saturday">Schedule</a></li>
+                    <li><a>Schedule</a></li>
                     <li><a href="/programme/social_events">Social Events</a></li>
                 </ul>
 
@@ -287,7 +286,7 @@ Andrew is a Django core developer and the primary author of both South and the n
                     <li><strong>Presentations</strong><br/>August 2-3</li>
                     <li><strong>Sprints</strong><br/>August 4-5</li>
                 </ul>
-                <a href="/"><img src="/img/white-logo.png" alt="PyConAu Logo" class="pull-right white-logo" /></a>
+                <a href="http://2014.pycon-au.org"><img src="/img/white-logo.png" alt="PyConAu Logo" class="pull-right white-logo" /></a>
                 <div class="clearfix"></div>
             </div>
         </footer>
